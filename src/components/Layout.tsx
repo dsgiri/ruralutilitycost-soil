@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link, Outlet, NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { cn } from "../lib/utils";
-import { AdPlaceholder } from "./AdPlaceholder";
 import { CookieBanner } from "./CookieBanner";
 
 export const Layout: React.FC = () => {
@@ -108,22 +107,12 @@ export const Layout: React.FC = () => {
         </nav>
       )}
 
-      {/* Top Ad Placeholder */}
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full mt-4">
-        <AdPlaceholder slotId="TOP_HEADER_AD" />
-      </div>
-
       {/* Main Content */}
       <main className="flex-1" id="main-content">
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
           <Outlet />
         </div>
       </main>
-
-      {/* Bottom Ad Placeholder */}
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full mb-4">
-        <AdPlaceholder slotId="BOTTOM_FOOTER_AD" />
-      </div>
 
       {/* Shared Footer */}
       <footer className="mt-auto border-t border-slate-200 pt-6 pb-12 bg-[#F4F5F2]" role="contentinfo">
