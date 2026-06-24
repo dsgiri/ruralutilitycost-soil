@@ -15,8 +15,7 @@ import { ProductComparison } from "./pages/ProductComparison";
 import { LimePlanner } from "./pages/LimePlanner";
 import { Favorites } from "./pages/Favorites";
 import { About } from "./pages/About";
-import { Legal } from "./pages/Legal";
-import { Contact, License } from "./pages/MiscPages";
+import { License } from "./pages/MiscPages";
 import { NotFound } from "./pages/NotFound";
 import { RouteChangeTracker } from "./components/RouteChangeTracker";
 
@@ -36,8 +35,6 @@ export default function App() {
             <Route path="lime" element={<LimePlanner />} />
             <Route path="favorites" element={<Favorites />} />
             <Route path="about" element={<About />} />
-            <Route path="legal" element={<Legal />} />
-            <Route path="contact" element={<Contact />} />
             <Route path="license" element={<License />} />
             <Route path="*" element={<NotFound />} />
           </Route>
