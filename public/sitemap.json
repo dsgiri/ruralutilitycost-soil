@@ -1,13 +1,13 @@
 {
   "urlset": [
-    { "loc": "https://soil.ruralutilitycost.com/", "changefreq": "weekly", "priority": 1.0 },
-    { "loc": "https://soil.ruralutilitycost.com/test", "changefreq": "weekly", "priority": 0.8 },
-    { "loc": "https://soil.ruralutilitycost.com/recommend", "changefreq": "weekly", "priority": 0.8 },
-    { "loc": "https://soil.ruralutilitycost.com/removal", "changefreq": "weekly", "priority": 0.8 },
-    { "loc": "https://soil.ruralutilitycost.com/cost", "changefreq": "weekly", "priority": 0.8 },
-    { "loc": "https://soil.ruralutilitycost.com/compare", "changefreq": "weekly", "priority": 0.8 },
-    { "loc": "https://soil.ruralutilitycost.com/lime", "changefreq": "weekly", "priority": 0.8 },
-    { "loc": "https://soil.ruralutilitycost.com/about", "changefreq": "monthly", "priority": 0.5 },
-    { "loc": "https://soil.ruralutilitycost.com/license", "changefreq": "monthly", "priority": 0.3 }
+    { "loc": "https://soil.ruralopstools.com/", "changefreq": "weekly", "priority": 1.0 },
+    { "loc": "https://soil.ruralopstools.com/test", "changefreq": "weekly", "priority": 0.8 },
+    { "loc": "https://soil.ruralopstools.com/recommend", "changefreq": "weekly", "priority": 0.8 },
+    { "loc": "https://soil.ruralopstools.com/removal", "changefreq": "weekly", "priority": 0.8 },
+    { "loc": "https://soil.ruralopstools.com/cost", "changefreq": "weekly", "priority": 0.8 },
+    { "loc": "https://soil.ruralopstools.com/compare", "changefreq": "weekly", "priority": 0.8 },
+    { "loc": "https://soil.ruralopstools.com/lime", "changefreq": "weekly", "priority": 0.8 },
+    { "loc": "https://soil.ruralopstools.com/about", "changefreq": "monthly", "priority": 0.5 },
+    { "loc": "https://soil.ruralopstools.com/license", "changefreq": "monthly", "priority": 0.3 }
   ]
 }

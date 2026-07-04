@@ -36,7 +36,7 @@ export const Layout: React.FC = () => {
                   Soil <span className="text-[#A9C4A4] font-normal">Fertility Hub</span>
                 </h1>
                 <span className="text-[10px] text-slate-400 uppercase tracking-widest mt-1">
-                  A Rural Utility Cost Application
+                  A Rural Ops Tools Application
                 </span>
               </div>
             </Link>
@@ -125,16 +125,16 @@ export const Layout: React.FC = () => {
           </div>
           <div className="flex flex-col gap-2">
             <h2 className="text-[10px] font-bold uppercase text-slate-400 mb-1">Ecosystem Links</h2>
-            <Link to="/about" className="text-[10px] text-[#4C7C44] font-semibold hover:underline min-h-[32px] flex items-center">About Rural Utility Cost</Link>
-            <a href="https://www.ruralutilitycost.com/contact" target="_blank" rel="noreferrer" className="text-[10px] text-[#4C7C44] font-semibold hover:underline min-h-[32px] flex items-center">Contact</a>
-            <a href="https://ruralutilitycost.com" target="_blank" rel="noreferrer" className="text-[10px] text-[#4C7C44] font-semibold hover:underline min-h-[32px] flex items-center">Rural Utility Cost Home</a>
+            <Link to="/about" className="text-[10px] text-[#4C7C44] font-semibold hover:underline min-h-[32px] flex items-center">About Rural Ops Tools</Link>
+            <a href="https://www.ruralopstools.com/contact" target="_blank" rel="noreferrer" className="text-[10px] text-[#4C7C44] font-semibold hover:underline min-h-[32px] flex items-center">Contact</a>
+            <a href="https://ruralopstools.com" target="_blank" rel="noreferrer" className="text-[10px] text-[#4C7C44] font-semibold hover:underline min-h-[32px] flex items-center">Rural Ops Tools Home</a>
           </div>
           <div className="flex flex-col gap-2">
             <h2 className="text-[10px] font-bold uppercase text-slate-400 mb-1">Compliance</h2>
             <div className="flex flex-col gap-2">
-              <a href="https://www.ruralutilitycost.com/privacy-policy" target="_blank" rel="noreferrer" className="text-[10px] text-slate-500 hover:text-slate-900 min-h-[32px] flex items-center">Privacy Policy</a>
-              <a href="https://www.ruralutilitycost.com/terms-of-use" target="_blank" rel="noreferrer" className="text-[10px] text-slate-500 hover:text-slate-900 min-h-[32px] flex items-center">Terms of Use</a>
-              <a href="https://www.ruralutilitycost.com/disclaimer" target="_blank" rel="noreferrer" className="text-[10px] text-slate-500 hover:text-slate-900 min-h-[32px] flex items-center">Disclaimer</a>
+              <a href="https://www.ruralopstools.com/privacy-policy" target="_blank" rel="noreferrer" className="text-[10px] text-slate-500 hover:text-slate-900 min-h-[32px] flex items-center">Privacy Policy</a>
+              <a href="https://www.ruralopstools.com/terms-of-use" target="_blank" rel="noreferrer" className="text-[10px] text-slate-500 hover:text-slate-900 min-h-[32px] flex items-center">Terms of Use</a>
+              <a href="https://www.ruralopstools.com/disclaimer" target="_blank" rel="noreferrer" className="text-[10px] text-slate-500 hover:text-slate-900 min-h-[32px] flex items-center">Disclaimer</a>
               <Link to="/license" className="text-[10px] text-slate-500 hover:text-slate-900 min-h-[32px] flex items-center">License</Link>
               <a href="https://github.com/dsgiri/ruralutilitycost-soil" target="_blank" rel="noreferrer" className="text-[10px] text-slate-500 hover:text-slate-900 min-h-[32px] flex items-center">GitHub</a>
             </div>

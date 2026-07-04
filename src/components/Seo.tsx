@@ -11,9 +11,9 @@ export interface SeoProps {
 }
 
 export const Seo: React.FC<SeoProps> = ({ title, description, type, name, url, image }) => {
-  const fullTitle = `${title} | Soil - Rural Utility Cost`;
-  const canonicalUrl = url ? `https://soil.ruralutilitycost.com${url}` : "https://soil.ruralutilitycost.com";
-  const defaultImage = "https://soil.ruralutilitycost.com/og-image.jpg";
+  const fullTitle = `${title} | Soil - Rural Ops Tools`;
+  const canonicalUrl = url ? `https://soil.ruralopstools.com${url}` : "https://soil.ruralopstools.com";
+  const defaultImage = "https://soil.ruralopstools.com/og-image.jpg";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -28,8 +28,8 @@ export const Seo: React.FC<SeoProps> = ({ title, description, type, name, url, i
       {/* Standard metadata tags */}
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
-      <meta name="keywords" content="soil test interpretation, fertilizer recommendation, nutrient removal, cost per nutrient, lime requirement, rural utility cost, farming" />
-      <meta name="author" content="Rural Utility Cost" />
+      <meta name="keywords" content="soil test interpretation, fertilizer recommendation, nutrient removal, cost per nutrient, lime requirement, rural ops tools, farming" />
+      <meta name="author" content="Rural Ops Tools" />
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href={canonicalUrl} />
       
@@ -42,7 +42,7 @@ export const Seo: React.FC<SeoProps> = ({ title, description, type, name, url, i
       
       {/* Twitter tags */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content={name || "@ruralutilitycost"} />
+      <meta name="twitter:creator" content={name || "@ruralopstools"} />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image || defaultImage} />

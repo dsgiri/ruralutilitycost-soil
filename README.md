@@ -1,4 +1,4 @@
-# Soil - Rural Utility Cost
+# Soil - Rural Ops Tools
 
 Soil test interpretation, fertility, and nutrient planning hub for farmers and agronomists.
 
